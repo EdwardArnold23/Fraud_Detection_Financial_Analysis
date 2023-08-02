@@ -9,4 +9,4 @@ In this review I wil be analyzing historical credit card transactions and consum
 
 Using the data provided by the data-provider, reviewed the csv files and diagramed the tables along with their respective relationships. 
 
-![Fraud Detection Database Relationship Diagram (DRD)]['Pictures/Fraud_detection_ERD.png']
+![Fraud Detection Database Relationship Diagram (DRD)][Pictures/Fraud_detection_ERD.png]
