@@ -3,7 +3,7 @@
 
 In this review I wil be analyzing historical credit card transactions and consumption patterns in order to identify possible fraudulent transactions.
 
-** Note data was provided by data-provider. 
+*Note data was provided by data-provider. 
 
 ### Data Model
 
@@ -18,15 +18,16 @@ All data analysis was conducted in the Challenge.ipynb post creating a pgAdmin P
 Findings based on questions:
  
 - Part 1
+  
   **Analysis:** Analyze small transactions; specifically less than $2.00
-  **Findings:** Based on the data, $2 transactions make up about 5% of all transactions. Cardholders 12, 24 and 20 hold majority of the smaller   
-  transactions. If fraud is detected to be happening in lower denominations, then I would monitor these cardholder accounts, but there is no clear   
-  indication of fraud on any of these accounts.
+  
+  **Findings:** Based on the data, $2 transactions make up about 5% of all transactions. Cardholders 12, 24 and 20 hold majority of the smaller transactions. If fraud is detected to be happening in lower denominations, then I would monitor these cardholder accounts, but there is no clear indication of fraud on any of these accounts.
   
 - Part 2
+
   **Analysis:** Analyze highest transactions; specifically between 7:00 am and 9:00 am
-  **Findings:** Based on the data, when comparing the top 100 transactions made between between 7:00 am and 9:00 am verses outside this timeframe,      there is still no definitive data shoulds a series of fraudulent transactions. All of the transactions show different amounts and most of them are    by different cardholders. In both views more than 80% of the transactions were less than $500. This would suggest looking at transactions using     
-  additional information from the CFO.  
+
+  **Findings:** Based on the data, when comparing the top 100 transactions made between between 7:00 am and 9:00 am verses outside this timeframe, there is still no definitive data shoulds a series of fraudulent transactions. All of the transactions show different amounts and most of them are by different cardholders. In both views more than 80% of the transactions were less than $500. This would suggest looking at transactions using additional information from the CFO.  
 
 ### Resources
 - PostgreSQL 15 database
